@@ -1,0 +1,94 @@
+$letra-pagina: "Lucida Console", "Courier New", monospace;
+$color-letra: #e8e8e8;
+
+@mixin sizes($width, $height) {
+	height: $height;
+	width: $width;
+}
+
+@mixin sizes2($width, $height) {
+	height: $height;
+	min-width: $width;
+}
+
+* {
+	box-sizing: border-box;
+}
+header {
+	@include sizes(100%, 100px);
+}
+
+.logoPresentacion {
+	img {
+		@include sizes(100px, 100px);
+	}
+}
+
+.menu {
+	width: 100%;
+}
+
+nav {
+	border-top: 1px solid #fff;
+}
+
+main {
+	min-height: 600px;
+	h2 {
+		font-family: $letra-pagina;
+		color: $color-letra;
+	}
+	p {
+		font-family: $letra-pagina;
+		color: $color-letra;
+	}
+	#contact.container {
+		align-items: center;
+	}
+	h3 {
+		font-family: $letra-pagina;
+		color: $color-letra;
+		font-size: 2em;
+	}
+}
+
+.cuerpo-principal {
+	@include sizes2(100%, 100vh);
+	background-image: url("../imagenes/fondo_index.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+form {
+	input,
+	textarea {
+		border: none !important;
+		background: transparent !important;
+		border-bottom: 2px solid $color-letra !important;
+		caret-color: $color-letra;
+		color: $color-letra !important;
+	}
+	::placeholder {
+		color: $color-letra !important;
+	}
+	.form-control:focus {
+		box-shadow: none;
+	}
+}
+
+input.submit-btn {
+	width: 100px;
+	border: 2px solid $color-letra !important;
+}
+
+.icono {
+	font-size: 4em;
+	color: $color-letra;
+}
+
+li {
+	list-style: none;
+	color: $color-letra;
+}

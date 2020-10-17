@@ -1,0 +1,104 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+}
+
+.logoPresentacion img {
+  height: 100px;
+  width: 100px;
+}
+
+.menu {
+  width: 100%;
+}
+
+nav {
+  border-top: 1px solid #fff;
+}
+
+main {
+  min-height: 600px;
+}
+
+main h2 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: #e8e8e8;
+}
+
+main p {
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: #e8e8e8;
+}
+
+main #contact.container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main h3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: #e8e8e8;
+  font-size: 2em;
+}
+
+.cuerpo-principal {
+  height: 100vh;
+  min-width: 100%;
+  background-image: url("../imagenes/fondo_index.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+form input,
+form textarea {
+  border: none !important;
+  background: transparent !important;
+  border-bottom: 2px solid #e8e8e8 !important;
+  caret-color: #e8e8e8;
+  color: #e8e8e8 !important;
+}
+
+form ::-webkit-input-placeholder {
+  color: #e8e8e8 !important;
+}
+
+form :-ms-input-placeholder {
+  color: #e8e8e8 !important;
+}
+
+form ::-ms-input-placeholder {
+  color: #e8e8e8 !important;
+}
+
+form ::placeholder {
+  color: #e8e8e8 !important;
+}
+
+form .form-control:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+input.submit-btn {
+  width: 100px;
+  border: 2px solid #e8e8e8 !important;
+}
+
+.icono {
+  font-size: 4em;
+  color: #e8e8e8;
+}
+
+li {
+  list-style: none;
+  color: #e8e8e8;
+}
+/*# sourceMappingURL=estilos.css.map */
