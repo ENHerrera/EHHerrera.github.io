@@ -21,10 +21,6 @@ nav {
   border-top: 1px solid #fff;
 }
 
-main {
-  min-height: 600px;
-}
-
 main h2 {
   font-family: "Lucida Console", "Courier New", monospace;
   color: #e8e8e8;
