@@ -23,12 +23,12 @@ nav {
 
 main h2 {
   font-family: "Lucida Console", "Courier New", monospace;
-  color: #e8e8e8;
+  color: #ffff;
 }
 
 main p {
   font-family: "Lucida Console", "Courier New", monospace;
-  color: #e8e8e8;
+  color: #ffff;
 }
 
 main #contact.container {
@@ -39,7 +39,7 @@ main #contact.container {
 
 main h3 {
   font-family: "Lucida Console", "Courier New", monospace;
-  color: #e8e8e8;
+  color: #ffff;
   font-size: 2em;
 }
 
@@ -57,25 +57,25 @@ form input,
 form textarea {
   border: none !important;
   background: transparent !important;
-  border-bottom: 2px solid #e8e8e8 !important;
-  caret-color: #e8e8e8;
-  color: #e8e8e8 !important;
+  border-bottom: 2px solid #ffff !important;
+  caret-color: #ffff;
+  color: #ffff !important;
 }
 
 form ::-webkit-input-placeholder {
-  color: #e8e8e8 !important;
+  color: #ffff !important;
 }
 
 form :-ms-input-placeholder {
-  color: #e8e8e8 !important;
+  color: #ffff !important;
 }
 
 form ::-ms-input-placeholder {
-  color: #e8e8e8 !important;
+  color: #ffff !important;
 }
 
 form ::placeholder {
-  color: #e8e8e8 !important;
+  color: #ffff !important;
 }
 
 form .form-control:focus {
@@ -85,16 +85,16 @@ form .form-control:focus {
 
 input.submit-btn {
   width: 100px;
-  border: 2px solid #e8e8e8 !important;
+  border: 2px solid #ffff !important;
 }
 
 .icono {
   font-size: 4em;
-  color: #e8e8e8;
+  color: #ffff;
 }
 
 li {
   list-style: none;
-  color: #e8e8e8;
+  color: #ffff;
 }
 /*# sourceMappingURL=estilos.css.map */
