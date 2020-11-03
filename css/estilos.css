@@ -43,6 +43,10 @@ main h3 {
   font-size: 2em;
 }
 
+main .progress-bar {
+  background-color: #16a596 !important;
+}
+
 .cuerpo-principal {
   height: 100vh;
   min-width: 100%;
