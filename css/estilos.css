@@ -101,4 +101,10 @@ li {
   list-style: none;
   color: #ffff;
 }
+
+@media (min-width: 992px) {
+  main img {
+    border-top: 1px solid #fff;
+  }
+}
 /*# sourceMappingURL=estilos.css.map */
