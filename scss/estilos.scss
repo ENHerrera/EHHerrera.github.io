@@ -95,10 +95,8 @@ li {
 	color: $color-letra;
 }
 
-@media (min-width: 992px) {
-	main {
-		img {
-			border-top: 1px solid #fff;
-		}
+footer {
+	.barra-contacto {
+		width: 10px;
 	}
 }
