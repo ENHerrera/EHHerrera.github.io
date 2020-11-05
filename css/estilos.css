@@ -49,6 +49,10 @@ main .progress-bar {
   background-color: #16a596 !important;
 }
 
+main .contact {
+  min-height: 650px;
+}
+
 .cuerpo-principal {
   height: 100vh;
   min-width: 100%;
