@@ -23,6 +23,10 @@ nav {
   border-top: 1px solid #fff;
 }
 
+main {
+  min-height: 550px;
+}
+
 main h2 {
   font-family: "Lucida Console", "Courier New", monospace;
   color: #ffff;
@@ -49,12 +53,8 @@ main .progress-bar {
   background-color: #16a596 !important;
 }
 
-main .contact {
-  min-height: 650px;
-}
-
 .cuerpo-principal {
-  height: 100vh;
+  min-height: 100vh;
   min-width: 100%;
   background-image: url("../imagenes/fondo_index.jpg");
   background-repeat: no-repeat;
